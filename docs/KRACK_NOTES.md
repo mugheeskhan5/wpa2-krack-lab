@@ -66,9 +66,7 @@ pip install pycryptodome
 > preserves the venv's Python path under sudo.
 
 
-## ⚠️ WARNING: Disabling hardware crypto below WILL REQUIRE A HOST REBOOT.
-## Save your work before copy-pasting these steps.
-
+<small>**⚠️ WARNING: Disabling hardware crypto below WILL REQUIRE A HOST REBOOT. Save your work before copy-pasting.**</small>
 
 ### Disable hardware encryption
 
