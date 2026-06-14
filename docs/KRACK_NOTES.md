@@ -65,6 +65,11 @@ pip install pycryptodome
 > with `sudo -E $(which python3) krack-test-client.py` — the `-E` flag
 > preserves the venv's Python path under sudo.
 
+
+## ⚠️ WARNING: Disabling hardware crypto below WILL REQUIRE A HOST REBOOT.
+## Save your work before copy-pasting these steps.
+
+
 ### Disable hardware encryption
 
 ```bash
