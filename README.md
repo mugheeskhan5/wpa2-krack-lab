@@ -133,6 +133,8 @@ Apply the filter `eapol` to see all 4 handshake messages.
 
 The KRACK demo requires Mathy Vanhoef's `krackattacks-scripts` repository (not included here — cloned separately due to its own build process).
 
+⚠️ **CRITICAL CAPABILITY NOTE:** The KRACK demo requires modifications to your host system's hardware cryptography settings and **will require a system reboot**. Save any open work before proceeding.
+
 ```bash
 git clone https://github.com/vanhoefm/krackattacks-scripts.git ~/krackattacks
 cd ~/krackattacks/krackattack
