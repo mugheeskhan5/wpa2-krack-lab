@@ -83,7 +83,7 @@ See [`docs/REPRODUCTION_GUIDE.md`](docs/REPRODUCTION_GUIDE.md) for full dependen
 ### 1. Clone and install dependencies
 
 ```bash
-git clone https://github.com/mughees/wpa2-krack-lab.git
+git clone https://github.com/mughees/wpa2-zero-hardware-krack-lab.git
 cd wpa2-krack-lab
 sudo apt update && sudo apt install -y docker.io wireshark tcpdump git build-essential \
     libnl-3-dev libnl-genl-3-dev pkg-config libssl-dev net-tools sysfsutils python3-venv iw
@@ -133,7 +133,7 @@ Apply the filter `eapol` to see all 4 handshake messages.
 
 The KRACK demo requires Mathy Vanhoef's `krackattacks-scripts` repository (not included here — cloned separately due to its own build process).
 
-⚠️ **CRITICAL CAPABILITY NOTE:** The KRACK demo requires modifications to your host system's hardware cryptography settings and **will require a system reboot**. Save any open work before proceeding.
+ ** NOTE:** The KRACK demo requires modifications to your host system's hardware cryptography settings and **will require a system reboot**. 
 
 ```bash
 git clone https://github.com/vanhoefm/krackattacks-scripts.git ~/krackattacks
