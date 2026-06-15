@@ -84,7 +84,7 @@ See [`docs/REPRODUCTION_GUIDE.md`](docs/REPRODUCTION_GUIDE.md) for full dependen
 
 ```bash
 git clone https://github.com/mughees/wpa2-zero-hardware-krack-lab.git
-cd wpa2-krack-lab
+cd wpa2-zero-hardware-krack-lab
 sudo apt update && sudo apt install -y docker.io wireshark tcpdump git build-essential \
     libnl-3-dev libnl-genl-3-dev pkg-config libssl-dev net-tools sysfsutils python3-venv iw
 sudo usermod -aG docker $USER && newgrp docker
