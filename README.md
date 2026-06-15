@@ -1,8 +1,8 @@
 ## WPA2-Lab-Zero-Hardware: Containerized 4-Way Handshake & KRACK Attack Simulation
-<img width="482" height="406" alt="ezgif com-animated-gif-maker (1)" src="https://github.com/user-attachments/assets/8ca77c1d-271f-4d6e-9e47-f290990e9d58" />
 
-
-
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/8ca77c1d-271f-4d6e-9e47-f290990e9d58" alt="WPA2 Docker Lab Terminal" width="600" style="max-width: 100%; height: auto;" />
+</p>
 
 
 
